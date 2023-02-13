@@ -39,7 +39,7 @@ function val() {
     document.getElementById("resultado").value = Number(primNum - segNum);
   } else if (op == '/' && primNum == Number(primNum) && segNum == Number(segNum)) {
     console.log("Operação de Divisão");
-    alert(`A Divisão dos valores aparece no Terceiro campo ${primNum * segNum}`);
+    alert(`A Divisão dos valores aparece no Terceiro campo ${primNum / segNum}`);
     document.getElementById("resultado").value = Number(primNum / segNum);
   } else {
     alert("Esta é uma calculadora aritmetica simples. As operações permitidas são: + - * / e apenas opera com numeros");

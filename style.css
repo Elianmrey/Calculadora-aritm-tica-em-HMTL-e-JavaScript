@@ -1,4 +1,25 @@
 html, body {
   height: 100%;
   width: 100%;
+  text-align: center;
+}
+#primnumb
+{
+background-color: #d7eaee;
+  width: 100px;
+}
+#segNumb
+{
+background-color: #d7eaee;
+  width: 100px;
+}
+#op
+{
+background-color: #c0e3cf;
+  width: 30px;
+}
+#resultado
+{
+background-color: #e3e1c0;
+  width: 100px;
 }
